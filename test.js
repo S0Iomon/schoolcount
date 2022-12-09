@@ -36,6 +36,7 @@ let answers = () => {
     recursion()
     output.value = arr.join("\r\n")
     output.style.fontWeight = 'bold'
+    obj = {}
 }
 
 
