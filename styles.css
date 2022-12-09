@@ -1,28 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans&family=Ubuntu&display=swap');
+
+/* position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
 body{
     text-align: center;
     font-size: 25px;
-    margin-left: 10vh;
-    margin-right:  10vh;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-input{
-    width: 100%;
-    height: 25px;
-    font-size: 25px;
-    background-color: rgb(45, 45, 88);
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: solid 5px rgb(163, 83, 83);
-    border-radius: 20px;
+    font-family: Nunito;
+    background-color: #265d89;
 }
 
- button {
-    background-color: rgb(45, 45, 88);
-    padding: 20px;
-    border: solid 5px rgb(163, 83, 83);
+form{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(2, 30vh) 10vh 20vh;
+    margin-left: auto;
+    margin-right: auto;
+    column-gap: 20px;
+}
+
+label{
+    color:#F6D55C;
+    font-weight: bold;
+    grid-row: 2;
+}
+
+.answer{
+    width: 100%;
+    font-size: 20px;
+    background-color: white;
+    color: #205f59;
+    font-family: Nunito;
+    border: solid 1px #e37771;
     border-radius: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.output{
+    width: 100%;
+    font-size: 20px;
+    background-color: white;
+    color: #205f59;
+    font-family: Nunito;
+    border: solid 1px #e37771;
+    border-radius: 20px;
+    outline: none;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+
+ button {
+    background-color: #205f59;
+    border: solid 5px #205f59;
+    border-radius: 100px;
+    font-family: Nunito;
+    font-weight: bold;
+    font-size: 25px;
+    grid-row: 2;
  }
 
  form{
