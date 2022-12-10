@@ -15,7 +15,7 @@ body{
 
 head, nav{
     width: 100%;
-    background-color: rgb(33, 33, 33);
+    background-color: black;
 }
 
 nav .terminal{
